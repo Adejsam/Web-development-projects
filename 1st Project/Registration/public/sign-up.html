@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>sign-up</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="./style.css"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <main>
+        <div id="sign-up " class="box">
+            <form class="sign-up-form" action="" target="_self" >
+                <h2>Create an account</h2>
+                <p>Please enter your credentials</p>
+                <label for="username">Username</label>
+                <div class="username-field">
+                    <input id="username" name="username" type="text" placeholder="Enter your username" minlength="5" autocomplete="on" required/>
+                    <i class="fa-solid fa-user"></i>
+                </div>
+                <label for="email">Email</label>
+                <div class="email-field">
+                    <input id="email" name="email" type="email" placeholder="Enter your email" autocomplete="on" required/>
+                    <i class="fa-solid fa-envelope"></i>
+                </div>
+                <label for="password">Confirm password</label>
+                <div class="password-field">
+                    <input id="password" name="password" type="password" placeholder="Enter your password " minlength="8" autocomplete="on" required/>
+                    <i class="fa-solid fa-lock"></i>
+                </div>
+                <div class="checkbox-field">
+                    <input id="checkbox" type="checkbox" name="checkbox" required/>
+                    <label for="checkbox" class="checking">I accept the terms and condition and the privacy policy</label>
+                </div>
+                <button type="button" class="sign-up-button">Sign Up</button>
+                <p class="log-in-link">Already have an account? <a href="./log-in.html">Log in</a></p>
+            </form>
+        </div>
+    </main> 
+</body>
+</html>

@@ -1,0 +1,59 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 16px;
+    background-color: whitesmoke;
+}
+.form-group {
+    margin-bottom: 15px;
+}
+.form-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#feedbackForm{
+    padding: 25px 50px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    margin-block: 50px;
+    border-radius: 6px;
+    background-color: white;
+    color: black;
+}
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+input, textarea, button {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+}
+.checkbox-group, .radio-group {
+    display: flex;
+    gap: 10px;
+}
+.checkbox-group input, .radio-group input {
+    width: auto;
+}
+button {
+    width: auto;
+    margin-right: 10px;
+    cursor: pointer;
+}
+button:hover{
+    background-color: black;
+    color: white;
+    border: none;
+}
+button:active{
+    scale: 0.9;
+}
+h1{
+    text-align: center;
+    padding-bottom: 10px;
+}

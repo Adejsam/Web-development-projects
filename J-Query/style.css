@@ -1,0 +1,12 @@
+body{
+    background-color: blueviolet;
+}
+.header{
+    color: aqua;
+    text-align: center;
+    font-size: 150px;
+    font-family: cursive;
+}
+#btn1{
+    color: brown;
+}
